@@ -1,0 +1,9 @@
+name = "Inventae"
+license = "Apache License 2.0"
+description = "Inventae"
+min_version = 0.1
+
+[author]
+  name = "inventae"
+  homepage = "//inventae.comb.br"
+
