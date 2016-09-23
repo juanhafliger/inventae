@@ -4,7 +4,7 @@
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
 box: golang
-#build File
+#build File and Deploy
 build:
   steps:
     - arjen/hugo-build:
