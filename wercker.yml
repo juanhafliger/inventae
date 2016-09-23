@@ -14,9 +14,9 @@ build:
         prod_branches: master 
 deploy:
     steps:
-    - s3sync:
-        source_dir: build/
-        delete-removed: true
-        bucket-url: inventaetheme.s3-website-us-east-1.amazonaws.com
-        key-id: AKIAISY6VXL36R7TVITQ
-        key-secret: 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
+        - s3sync:
+            key-id: $KEY
+            key-secret: $SECRET
+            bucket-url: inventaetheme
+            #source-dir: $SOURCE
+            #opts: --acl-private
