@@ -1,7 +1,7 @@
 baseurl = "http://inventae.com.br/"
 languageCode = "en-us"
 title = "Inventae"
-theme = "inventae"
+theme = "inventaetheme"
 
 [params]
 
