@@ -90,7 +90,7 @@ theme = "inventae"
 
 		[params.aside.button]
 			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+			link = "//inventae.com.br"
 
 	# Contact section
 	[params.contact]
