@@ -4,7 +4,7 @@
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
 box: golang
-#build File and Deploy Wercker
+#build File and Deploy Wercker and s3
 build:
   steps:
     - arjen/hugo-build:
@@ -18,7 +18,6 @@ deploy:
   - s3sync:
       source_dir: build/
       delete-removed: true
-      bucket-url: $URL
+      bucket-url: s3://$URL
       key-id: $KEY
       key-secret: $SECRET
-
