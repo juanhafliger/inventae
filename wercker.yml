@@ -15,7 +15,7 @@ build:
 deploy:
   steps:
   - s3sync:
-      #source_dir: ./
+      source_dir: $SOURCE
       delete-removed: true
       bucket-url: $URL
       key-id: $KEY
