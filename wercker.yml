@@ -13,10 +13,12 @@ build:
         flags: --disableSitemap=true   
         prod_branches: master 
 deploy:
-    steps:
-        - s3sync:
-            key-id: $KEY
-            key-secret: $SECRET
-            bucket-url: inventaetheme
-            #source-dir: $SOURCE
-            #opts: --acl-private
+  steps:
+  - s3sync:
+      source_dir: build/
+      delete-removed: true
+      bucket-url: $URL
+      key-id: $KEY
+      key-secret: $SECRET
+
+
