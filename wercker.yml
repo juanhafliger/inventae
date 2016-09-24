@@ -1,5 +1,4 @@
 box: golang
-#build File and Deploy Wercker and s3 build and deploy
 build:
   steps:
     - arjen/hugo-build:
