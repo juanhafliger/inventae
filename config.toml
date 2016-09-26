@@ -1,4 +1,4 @@
-baseurl = "http://inventae.com.br/"
+baseurl = "http://inventaetheme.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Inventae"
 theme = "inventaetheme"
