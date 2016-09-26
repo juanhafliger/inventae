@@ -15,4 +15,5 @@ deploy:
         key-secret: $SECRET
         source_dir: public/
         delete-removed: true
-        opts: --acl-public --add-header=Cache-Control:max-age=2592000
+        opts: --acl-public --add-header=Cache-Control:max-age=3600
+
